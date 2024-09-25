@@ -110,6 +110,7 @@ exports.CheckedIn = async (req, res, next) => {
     // Format time as 'H:MM' in IST
     //`${hour}:${min}`
     const formattedTime = get12HourTime();
+    
 
     console.log(`Current Time: ${formattedTime}`);
     console.log(`Formatted Date: ${formattedDate}`);
